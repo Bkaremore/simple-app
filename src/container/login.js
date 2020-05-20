@@ -22,14 +22,14 @@ class Login extends Component{
         if (emailVal.test(this.state.email) === false) {
             allOk = false
             this.setState({
-                errorEmail: 'enter valid email id.'
+                errorEmail: 'Enter valid email id.'
             })
         }
 
        if (this.state.password.length > 6 || this.state.password.length < 6) {
             allOk = false
             this.setState({
-                errorPassword: 'Enter password 6 digit password.'
+                errorPassword: 'Enter 6 digit password.'
             })
         }
 
@@ -115,13 +115,13 @@ const Styles = StyleSheet.create({
         backgroundColor:Color.TRANSPARANT_WHITE,
         borderWidth:1,
         height:45,
-        margin:20,
+        margin:10,
         borderColor:Color.TRANSPARANT_WHITE,
         borderRadius:8,
         flexDirection:'row',
         alignItems:'center',
         paddingHorizontal:8,
-        width:'70%'
+        width:'72%'
     },
     loginTxt:{color: Color.WHITE,
         fontSize:30,

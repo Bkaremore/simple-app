@@ -12,8 +12,10 @@ class HomeScreen extends Component{
                 <TouchableOpacity onPress={()=>{
                     this.props.navigation.toggleDrawer();
                 }}>
-                    <Image source={require('../images/menu.png')}
-                           style={Styles.headerIcon}/>
+                    <Image source={require('../images/interface.png')}
+                           style={Styles.headerIcon}
+                           // tintColor={'#B00020'}
+                    />
                 </TouchableOpacity>
 
                 <TouchableOpacity onPress={()=>{
@@ -48,7 +50,7 @@ export default HomeScreen;
 const Styles = StyleSheet.create({
     header:{
         height:50,
-        width:width,
+        width:'100%',
         elevation:10,
         flexDirection:'row',
         justifyContent:'space-between',
@@ -58,12 +60,13 @@ const Styles = StyleSheet.create({
         paddingRight:10
     },
     headerIcon:{
-        height:30,
-        width:30,
+        height:25,
+        width:25,
         padding:5
     },
     bandge:{
-        backgroundColor: '#d77f8f',
+        backgroundColor: 'red',
+        //backgroundColor: '#d77f8f',
         zIndex:2,
         position:'absolute',
         height:18,

@@ -12,8 +12,6 @@ class SplashScreen extends Component{
         },1000)
     }
 
-
-
     render() {
         return(
             <View style={{

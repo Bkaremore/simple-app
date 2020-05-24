@@ -12,7 +12,6 @@ data = [{id:1,name:'Barlin', bgColor: '#f5c645', color:Color.WHITE},
         {id:4,name:'Nairobi', bgColor: '#5fd927', color:Color.WHITE},
         {id:5,name:'Professor', bgColor: '#28d49b', color:Color.WHITE},
         {id:6,name:'Denver', bgColor: '#27cfc6', color:Color.WHITE},
-
     ]
 
 function RenderItem({item, index}){

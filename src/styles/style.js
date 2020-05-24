@@ -9,15 +9,20 @@ const Styles = StyleSheet.create({
         margin:15,
         alignItems:'center'
     },
+    row:{
+        flexDirection:'row',
+        flexWrap:'wrap'
+    },
     optionBtn:{
         backgroundColor:'blue',
         borderRadius:5,
         height:40,
-        width:'55%',
+        //width:'55%',
         justifyContent:'center',
         alignItems:'center',
         padding:5,
-        marginVertical:15
+        marginVertical:15,
+        marginHorizontal:10
     },
     optionBtnText:{
         color:Color.WHITE,
@@ -62,7 +67,7 @@ const Styles = StyleSheet.create({
     imageAnTxtContainer:{
         marginVertical:15,
         alignItems:'center'
-    }
+    },
 })
 
 export default Styles;

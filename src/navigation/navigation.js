@@ -15,6 +15,13 @@ import ActivityIndicatorApp from '../component/ActivityIndicatiorComponent';
 import ButtonComponent from "../component/ButtonComponet";
 import FlatlistCompnent from "../component/FlatListComponent";
 import ImageComponent from '../component/ImageComponent';
+import ModelComponent from '../component/ModelComponent';
+import RefreshControlComponent from '../component/RefreshControlComponent';
+import SafeAreaViewComponent from '../component/SafeAreaViewComponent';
+import TextComponent from '../component/TextComonent';
+import TextInputComponent from  '../component/TextInputComponent';
+import TouchableComponent from '../component/TouchableComponent';
+import ViewComponent from '../component/ViewComponent';
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -35,6 +42,13 @@ class App extends Component{
                     <Stack.Screen  name={'ButtonComponent'} component={ButtonComponent}/>
                     <Stack.Screen  name={'FlatlistCompnent'} component={FlatlistCompnent}/>
                     <Stack.Screen  name={'ImageComponent'} component={ImageComponent}/>
+                    <Stack.Screen  name={'ModelComponent'} component={ModelComponent}/>
+                    <Stack.Screen  name={'RefreshControlComponent'} component={RefreshControlComponent}/>
+                    <Stack.Screen  name={'SafeAreaViewComponent'} component={SafeAreaViewComponent}/>
+                    <Stack.Screen  name={'TextComponent'} component={TextComponent}/>
+                    <Stack.Screen  name={'TextInputComponent'} component={TextInputComponent}/>
+                    <Stack.Screen  name={'TouchableComponent'} component={TouchableComponent}/>
+                    <Stack.Screen  name={'ViewComponent'} component={ViewComponent}/>
                 </Stack.Navigator>
             </NavigationContainer>
         );
